@@ -1,0 +1,111 @@
+/* Reset margins, paddings, borders for most elements */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box; /* Ensures consistent width calculations */
+  font-family: Helvetica, sans-serif;
+}
+
+/* Reset specific elements like headings, lists, etc. */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: inherit; /* Inherit from parent element */
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit from parent element */
+}
+
+img {
+  vertical-align: middle; /* Consistent image alignment */
+}
+
+/* my css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #f0f2f5;
+  color: #1c1e21;
+}
+.fb-bio-card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  width: 450px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+.fb-bio-card .btn-add-bio,
+.btn-edit {
+  width: 100%;
+  padding: 7px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 12px 0;
+  cursor: pointer;
+}
+.fb-bio-card textarea {
+  height: 80px;
+  width: 100%;
+  background-color: #f0f2f5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.fb-bio-card textarea:hover {
+  background-color: #e6e7ea;
+}
+.fb-bio-card textarea:focus {
+  background-color: #fff;
+  border: 0.3px solid #0866ff;
+}
+.fb-bio-card .fb-bio-edit textarea::placeholder {
+  color: #555;
+  text-align: center;
+  font-size: 14px;
+}
+.fb-bio-edit p {
+  text-align: right;
+  font-size: 12px;
+  color: #666;
+  padding-top: 3px;
+}
+.fb-bio-edit .btns {
+  text-align: right;
+  margin-top: 5px;
+}
+.btn-cancel,
+.btn-save {
+  padding: 5px 10px;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+.btn-save {
+  background-color: #0861f2;
+  color: #fff;
+}
+.fb-bio-show p {
+  text-align: center;
+}
+.fb-bio-add,
+.fb-bio-edit {
+  display: none;
+}
