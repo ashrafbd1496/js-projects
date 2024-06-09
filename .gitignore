@@ -11,8 +11,13 @@ node_modules
 dist
 dist-ssr
 *.local
+public
+
 
 # Editor directories and files
+A-fav.png
+bootstrapv4.css
+bootstrapv4.js
 .vscode/*
 !.vscode/extensions.json
 .idea
