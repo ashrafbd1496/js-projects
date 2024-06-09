@@ -73,7 +73,8 @@ img {
 }
 .fb-bio-card textarea:focus {
   background-color: #fff;
-  border: 0.3px solid #0866ff;
+  outline: none;
+  border: 1px solid #0866ff;
 }
 .fb-bio-card .fb-bio-edit textarea::placeholder {
   color: #555;
@@ -97,6 +98,7 @@ img {
   font-size: 16px;
   text-transform: capitalize;
   border-radius: 5px;
+  cursor: pointer;
 }
 .btn-save {
   background-color: #0861f2;
@@ -105,7 +107,10 @@ img {
 .fb-bio-show p {
   text-align: center;
 }
-.fb-bio-add,
-.fb-bio-edit {
+.fb-bio-edit,
+.fb-bio-show {
   display: none;
+}
+button[disabled] {
+  opacity: 0.5;
 }
