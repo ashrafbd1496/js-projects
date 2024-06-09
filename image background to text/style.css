@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+.container h1{
+    font-family: sans-serif;
+    font-size: 10rem;
+    background-image: url(mosque.jpg);
+    background-size: contain;
+    background-clip: text;
+    color: transparent;
+
+}
