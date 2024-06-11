@@ -10,4 +10,6 @@
     ::-webkit-scrollbar-track
     ::-webkit-scrollbar-thumb
 
+    border-color: #000 #0000 #0000 #0000;
+
     For gradient color - grabient.com
