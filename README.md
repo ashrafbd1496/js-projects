@@ -11,5 +11,8 @@
     ::-webkit-scrollbar-thumb
 
     border-color: #000 #0000 #0000 #0000;
+    inset: 0 0 0 0;
+    filter: brightness(0.5);
+    filter: blur(20px);
 
     For gradient color - grabient.com
