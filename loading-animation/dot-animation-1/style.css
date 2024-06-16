@@ -1,0 +1,44 @@
+body{
+    background-color:  #000;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.wrapper .loader{
+    display: flex;
+    justify-content: space-evenly;
+   padding: 0 20px;
+}
+.loader .loading{
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin: 0 10px;
+    animation: load 0.8s ease infinite;
+}
+.loader .loading-1{
+    animation-delay: 0.3s;
+}
+.loader .loading-2{
+    animation-delay: 0.5s;
+}
+.loader .loading-3{
+    animation-delay: 0.7s;
+}
+.loader .loading-4{
+    animation-delay: 0.9s;
+}
+ @keyframes load {
+    0%{
+        width: 30px;
+        height: 30px;
+    }
+    50%{
+        width: 20px;
+        height: 20px;
+    }
+ }

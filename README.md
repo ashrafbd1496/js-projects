@@ -18,4 +18,6 @@
 
     For gradient color - grabient.com
     css clip path maker https://bennettfeely.com/clippy/
+    For css loader https://css-loaders.com/
+    
 
