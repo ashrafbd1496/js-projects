@@ -14,5 +14,8 @@
     inset: 0 0 0 0;
     filter: brightness(0.5);
     filter: blur(20px);
+    clip-path: polygon(0 0, 46% 0, 39% 100%, 0 100%);
 
     For gradient color - grabient.com
+    css clip path maker https://bennettfeely.com/clippy/
+
