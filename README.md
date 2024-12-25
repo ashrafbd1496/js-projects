@@ -23,7 +23,7 @@
 
     Channel Links- https://www.youtube.com/watch?v=NfvtQ2p5QG4&t=1s&ab_channel=JavaScriptKing 
     ## [Crazy Slider Live](https://crazy-slider-pi.vercel.app/)
-       ![Crazy Slider](crazyslider.png "Crazy Slider")
+       ![Crazy Slider](crazy-slider.png "Crazy Slider")
     
     
 
