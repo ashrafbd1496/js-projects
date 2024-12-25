@@ -1,0 +1,8 @@
+.array-loop > *{
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px 0;
+}
+ul{
+    list-style: none;
+}

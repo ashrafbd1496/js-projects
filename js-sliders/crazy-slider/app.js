@@ -20,11 +20,12 @@ let timeRunning = 3000;
 let timeAutoNext = 4000;
 let runTimeOut;
 let runAutoRunSlide;
-/*for auto sliding
+
+/*for auto sliding */
 runAutoRunSlide = setInterval(() => {
   nextDom.click();
 }, timeAutoNext);
-*/
+
 function showSlider(type) {
   let itemSlider = document.querySelectorAll(".carousel .list .item");
   let itemThumbnail = document.querySelectorAll(".carousel .thumbnail .item");
