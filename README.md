@@ -20,8 +20,8 @@
     For gradient color - grabient.com
     css clip path maker https://bennettfeely.com/clippy/
     For css loader https://css-loaders.com/
-
-## Channel Links(https://www.youtube.com/watch?v=NfvtQ2p5QG4&t=1s&ab_channel=JavaScriptKing/)
+    Channel Links(https://www.youtube.com/watch?v=NfvtQ2p5QG4&t=1s&ab_channel=JavaScriptKing/)
+    
 ## [Crazy Slider Live](https://crazy-slider-pi.vercel.app/)
 ![Crazy Slider](crazy-slider.png "Crazy Slider")
     
